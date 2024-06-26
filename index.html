@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Final Trip Planner</title>
+</head>
+<body>
+    <h1>Post Final Trip Planner</h1>
+    <form method="POST">
+        <label for="budget">Budget ($):</label>
+        <input type="number" name="budget" required><br>
+
+        <label for="time_limit">Time Limit (hours):</label>
+        <input type="number" name="time_limit" step="0.1" required><br>
+
+        <label for="distance_limit">Distance Limit (km):</label>
+        <input type="number" name="distance_limit" step="0.1" required><br>
+
+        <label for="min_rating">Minimum Rating:</label>
+        <input type="number" name="min_rating" step="0.1" required><br>
+
+        <input type="submit" value="Plan Trip">
+    </form>
+</body>
+</html>
